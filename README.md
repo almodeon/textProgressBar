@@ -8,6 +8,8 @@ A MATLAB class that implements a text-based progress bar.
   - Can add a prefix to the progress bar (toggleable/customizable)
 
 # Use:
+This is a class of type handle, so it is persistent and requires instantiation. The class has a constructor method that is used to configure it, and a `step` method that has to be called at every iteration that needs to be tracked.
+
 ## Constructor:
 ```
 textProgressBar(nSteps)
