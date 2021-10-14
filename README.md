@@ -79,3 +79,6 @@ for ii = 1:n
     pause(0.2);
 end
 ```
+
+## Copyright
+Copyright 2021 Stefano Seriani
